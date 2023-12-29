@@ -1,0 +1,3 @@
+enum OperatingSystem{
+	ANDROID,WINDOWS95,WINDOWS2000,MAC;
+}

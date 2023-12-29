@@ -1,0 +1,140 @@
+1. Java: It is an programing language used to build an softwares,applications,programs. It also checking the codes if any error occurs it will not allows to execution of program.
+   Javac: It is an compiler of java it means it compiles the program files if any mistakes or error in compile time that returns the error messages. it converts source code into machine         
+          code or byte code.
+
+2. JDK : it is an java development kit. it is used to build an software application, JdK has lots of tools which are useful for build an softwares. The JDK tools having their own  	contribution or working process, so developer is just using that tool to build app,software etc.
+
+JRE: It stands as Java Runtime Environment. it will returns the run time errors after that if having an proper code the JIT is helps converting byte code to native machine code.
+
+JVM : it stands Java Vertual Machine,it is an plateform dependent. it is having an multiple platform ,it will check  byte code and also execute the output.
+
+3. .java file : It is an file which stores the sourse code in system memory and it can be share to any platform.
+  
+   .class file : It is a converted .java file into  .class file , it is an byte code it only understand to the machines. it cannot be share to other platform.
+
+
+4.  JDK,JRE,JVM.
+
+
+5. variable is an storing the information, it is used to store the values means it points to the address of the values, it is also an reference. it can initialized in 4 types namely literals, local, method and reference.
+type of variable: Class level and Method level 
+ Class Level having 2 types----
+   1. static variable : it is one copy.it is easy direct access. it can invoking by using class name.
+   2. Method variable : it is n no.of copies. it can be invoked by using an refernce name. it can be invoked by creating an object.
+ Method level having 2 types----
+  1. local 
+  2. parameter
+
+
+
+6. it means its having an 4 types or principle namely Abstraction ,Polymorphism, Inheritance , Encapsulation.
+
+
+7.  compiles but Not executing.
+
+8. data type: It is an storing the differnt types of input values in different  data type . 
+    the datatypes having 2 types....
+      1.Primitive datatype : these are the types will gives from the java language and also they having their own default values.
+         types.... int,char,double,float,boolean,long,short,Byte.
+         Example:  int number=1;
+      2. Non-primitive datatype : these are own datatypes of developers and they not having any default values.
+          types or examples... Class,interfaces,String, array etc
+
+9. Dot operator used to access the variable or instance variable of current class and also another class.
+   
+     1.operater.name
+     2. class operater{
+         String name;
+    
+         void setName(String name){
+           this.name=name;
+           System.out.println(name);
+         }
+    	}    
+
+10. Java features......
+     1. Security
+     2. plateform independent
+     3. Dynamically
+     4. Reliable
+     5. Multi threaded
+     6. Robust
+     7. Speed
+     8. quikly clearing the garbage collections.
+     
+
+11. Array : array is a collection of elements used to store multiple values. It's strores the same data type values it does not allows or strore different data types of values at once.
+	    The values can strores by using { }; . It is working based on the index. the index value always start from 0.
+    Example : int array[] ={1,2,3,4};
+
+
+12. Class :  class is an template used to create an object. class is an non primitive datatype. The class name will start from capital letter. it also strores the lots of data inside the 
+           class block.
+         example : class Menu{
+                     }
+    Object: It is an instance of class. object is used to call the instance variable or method or constructor. new keyword is used to create an object.
+         Example : Menu menu=new Menu();
+                   
+
+13.   Keywords are given by java language. these are having their own working process the developers knows and also they will using required keywords. 
+	1. int 2.abstract 3.class 4.continue 5.float 6.for 7.if 8.else 9.continue 10.final 11.finally 12.super 13.this
+	Example: int number;
+
+14.Constructors : Constructor is an special  type of method. it is having same name as class name. It can be calling by creating an object.It does not having any return type values.
+   Types.... : 1.compile time -----* Method overloading and constructor overloading
+				   *constructor overloading---- super(); and this();
+               2.Run time
+
+15. if main method is non static the main method does not treat as entry point.So developers always using static as main method.
+	types... Static method and non static method.
+
+
+
+
+16. class Length{
+       public static void main(String[] args){
+		int array[]={12,3,2,45,6,7,6};
+    		int length=7;
+		for(int i=0; i<array.length;i++){
+                      if (array[i]==length){
+				 System.out.println(array[i]);
+				System.out.println("Length of the array is present in the given array");
+                           }
+                   }
+		}
+	}     
+
+
+17. Method : method is same as function used to perform several tasks. method can be invoked from one class to another class.
+    Example: class Length{
+                  int number;
+             void setNumber(int number){
+		this.number=number;
+                System.out.println(number);
+		}
+	     }
+
+    Method overloading : it is having  more then one method as same name but different parameters.
+    Example : class Length{
+                  int number;
+		  String name;
+             void setNumber(int number){
+		this.number=number;
+                System.out.println(number);
+		}
+	     void setNumber(int number,String name){
+		this.number=number;
+		this.name=name;
+                System.out.println(number);
+		System.out.println(name);
+		}
+
+		public static void main(String[] args){
+		 Length length=new Length();
+                   length.setNumber(10);
+		   length.setNumber(10,"shambhu");
+		}
+	     }
+            
+           
+

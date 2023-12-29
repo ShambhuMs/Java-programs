@@ -1,0 +1,94 @@
+1.) class Reverse{
+   public static void main(String... args){
+	String s="hello";
+	for(int i=s.length-1;i>=0;i--)
+	{
+	   System.out.println("reversed String : "+s[i]);
+	}
+     }
+}
+
+
+
+
+2.) class Letter
+{ 
+   public static void main(String... args)
+   {
+	String name="HeLLo";
+	for(int i=0;i<=name.length-1;i++)
+	{
+	  if(name[i]==uppercaseLetter)
+	  {
+	    System.out.println("changed upper into lower case:"+change.lowercase(name[i]);
+	  }
+	  else
+	  {
+	     System.out.println("changed lower into upper case:"+change.uppercase(name[i]);
+	  }
+        }
+   }
+}
+
+
+3.) class Prime
+{
+  public static void main(String... args)
+  {
+    int num=2;
+    int rem=num/num;
+    if(rem!=0)
+    {
+      System.out.println("Given number is prime number ");
+    }
+    else
+    {
+	System.out.println("Given number is not prime number ");
+    }
+  }
+}
+
+
+4.) class Pattern
+{
+  public static void main(String... args)
+  {
+    int m=6;
+    int n=12;
+    for(int i=1;i<=m;i++)
+    {
+		for(int j=1;j<=i*2;j++)
+		{
+		System.out.print("*");
+		for(int s=i+1;s<=n-i*2;s++)
+    	  {
+	 	   System.out.print(" ");
+     	  } 
+		  
+		}
+		System.out.println(); 
+      
+	}
+	 for(int i=m;i<=m;i--)
+    {
+       for(int j=1;j<=i*2;j++)
+	{
+ 	  System.out.print("*");
+	  for(int s=i+1;s<=n-i*2;s++)
+    	  {
+	 	System.out.print(" ");
+     	  }
+	}
+	System.out.println();
+    } 
+ }
+}
+   
+    
+   
+    
+
+
+
+
+
